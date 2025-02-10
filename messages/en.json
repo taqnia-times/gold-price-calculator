@@ -1,0 +1,53 @@
+{
+  "Metadata": {
+    "siteName": "Global Gold Price Calculator",
+    "description": "Get the latest gold prices and accurate gold price calculator for Arab and global countries. Currency conversion and gold market news.",
+    "keywords": "gold price, gold calculator, global gold prices, currency conversion, gold news"
+  },
+  "Home": {
+    "title": "Global Gold Price Calculator",
+    "description": "Get the latest and accurate gold prices for Arab and global countries"
+  },
+  "GoldCalculator": {
+    "title": "Gold Price Calculator",
+    "weight": "Weight (in grams)",
+    "enterWeight": "Enter weight",
+    "country": "Country",
+    "selectCountry": "Select country",
+    "karat": "Gold Karat",
+    "selectKarat": "Select karat",
+    "calculate": "Calculate Price",
+    "result": "Approximate price: {price} {currency}"
+  },
+  "GoldPriceChart": {
+    "chartTitle": "Gold Prices Over the Past Week",
+    "goldPrice": "Gold Price"
+  },
+  "CurrencyConverter": {
+    "title": "Currency Converter",
+    "amount": "Amount",
+    "enterAmount": "Enter amount",
+    "from": "From",
+    "to": "To",
+    "selectCurrency": "Select currency",
+    "convert": "Convert",
+    "result": "{amount} {fromCurrency} equals {result} {toCurrency}"
+  },
+  "GoldNews": {
+    "pageTitle": "Gold News",
+    "pageDescription": "Latest news and analysis of the gold market",
+    "newsItem1": {
+      "title": "Gold Prices Rise Amid Increasing Geopolitical Tensions",
+      "content": "Gold prices saw a notable increase today as geopolitical tensions escalate in various parts of the world..."
+    },
+    "newsItem2": {
+      "title": "Gold Demand Expected to Decrease in the Coming Quarter",
+      "content": "Economic reports suggest a potential decrease in gold demand for the upcoming quarter due to improvements in the global economy..."
+    },
+    "newsItem3": {
+      "title": "New Gold Mine Discovered in Africa",
+      "content": "A global mining company has announced the discovery of a new gold mine in West Africa, which may impact global gold prices..."
+    }
+  }
+}
+

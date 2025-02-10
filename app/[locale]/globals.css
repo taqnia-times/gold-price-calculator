@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-gold: #ffd700;
+  --color-gold-dark: #b8860b;
+  --color-black: #000000;
+  --color-gray: #333333;
+  --color-white: #ffffff;
+}
+
+body {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: "Inter", sans-serif;
+}
+
+.gold-gradient {
+  background: linear-gradient(45deg, var(--color-gold), var(--color-gold-dark));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border: 2px solid var(--color-gold);
+}
+
+.gold-shadow {
+  box-shadow: 0 4px 6px -1px rgba(255, 215, 0, 0.1), 0 2px 4px -1px rgba(255, 215, 0, 0.06);
+}
+
+.hover-gold:hover {
+  background-color: var(--color-gold);
+  color: var(--color-black);
+  transition: all 0.3s ease;
+}
+
